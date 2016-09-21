@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DemoOrderServer": {
+      "commandName": "Project",
+      "commandLineArgs": "c"
+    }
+  }
+}

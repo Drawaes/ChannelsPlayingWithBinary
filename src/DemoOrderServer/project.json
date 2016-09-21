@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "allowUnsafe": true
+  },
+
+  "dependencies": {
+    "Channels": "0.2.0-beta-15246",
+    "Channels.BinaryProcessing": "1.0.0-*",
+    "Channels.Networking.Libuv": "0.2.0-beta-15246",
+    "Channels.Networking.Sockets": "0.2.0-beta-15246",
+    "Channels.Text.Primitives": "0.2.0-beta-15246",
+    "System.Runtime.CompilerServices.Unsafe": "4.0.0"
+  },
+
+ 
+  "frameworks": {
+   
+    "net461": {
+      "dependencies": {
+        "BenchmarkDotNet.Diagnostics.Windows": "0.9.9"
+      }
+    }
+  }
+}
